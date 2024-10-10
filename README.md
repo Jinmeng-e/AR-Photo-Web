@@ -151,13 +151,13 @@
 
 | Platform             | Free Tier                                    | Paid Plans / Pricing                             | Performance (CDN)   | Best For                                         |
 | -------------------- | -------------------------------------------- | ------------------------------------------------ | ------------------- | ------------------------------------------------ |
-| **Netlify**          | 100GB bandwidth, 300 build minutes           | Pro: $19/month/user, $20/100GB extra bandwidth   | Fast (built-in CDN) | Static AR pages with quick setup                 |
-| **Vercel**           | 100GB bandwidth, 1000 serverless executions  | Pro: $20/month/user, 1TB bandwidth               | Fast (global CDN)   | Framework-based AR experiences (Next.js, React)  |
-| **GitHub Pages**     | Free for public repos                        | Pro GitHub account: $4/month                     | Limited             | Small, static AR projects, open-source hosting   |
-| **Firebase**         | 1GB storage, 10GB/month data transfer        | Pay-as-you-go: $0.026/GB storage, $0.15/GB data  | Fast (global CDN)   | Dynamic AR apps with real-time data needs        |
-| **AWS (S3 + CF)**    | 5GB storage, 50GB transfer (first 12 months) | S3: $0.023/GB, CF: $0.085/GB (first 10TB)        | High (CloudFront)   | Large-scale AR projects needing backend services |
-| **Heroku**           | 550 dyno hours, 512MB RAM                    | Hobby: $7/month/dyno, Production: from $25/month | Moderate            | Dynamic AR apps with backend functionality       |
-| **Cloudflare Pages** | Unlimited bandwidth, 500 build minutes       | Pro: $20/month                                   | Fast (edge CDN)     | Performance-oriented static AR sites             |
+| **Netlify**          | 100GB 대역폭, 300 빌드 분       	      | 프로: $19/월/사용자, $20/100GB 추가 대역폭   	 | Fast (built-in CDN) | CDN 및 손쉬운 배포를 갖춘 정적 WebAR                 |
+| **Vercel**           | 100GB 대역폭, 1000번의 서버리스 실행  	      | 프로: $20/월/사용자, 1TB 대역폭               	 | Fast (global CDN)   | 프레임워크(Next.js, React)를 갖춘 WebAR, 고성능  |
+| **GitHub Pages**     | 공개 저장소에는 무료                           | Pro GitHub 계정: $4/월                     	 | Limited             | 소규모 정적 WebAR 프로젝트, 오픈 소스 데모   |
+| **Firebase**         | 1GB 스토리지, 10GB/월 데이터 전송              | 종량제: $0.026/GB 스토리지, $0.15/GB 데이터  	 | Fast (global CDN)   | 실시간 데이터를 제공하는 동적 WebAR 앱        |
+| **AWS (S3 + CF)**    | 5GB 스토리지, 50GB 전송(처음 12개월) 	      | S3: $0.023/GB, CF: $0.085/GB(처음 10TB)          | High (CloudFront)   | 백엔드와 서버측이 필요한 대규모 WebAR |
+| **Heroku**           | 550다이노 시간, 512MB RAM                     | 취미: $7/월/dyno, 생산: $25/월부터 | Moderate     | Dynamic AR apps with backend functionality       | 백엔드 통합을 갖춘 동적 WebAR |
+| **Cloudflare Pages** | 무제한 대역폭, 500 빌드 분       	      | 프로: $20/월                                      | Fast (edge CDN)     | 빠른 CDN을 갖춘 고성능 정적 WebAR             |
 
 ### **사용 사례 기반 권장사항**
 - 소규모 정적 AR 프로젝트의 경우:
